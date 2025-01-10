@@ -1,32 +1,40 @@
 <template>
   <div class="header">
     <ul class="header__nav">
-      <li>
-        <nav><router-link :to="{ name: 'home' }">Home</router-link></nav>
-      </li>
-      <li>
-        <nav>
-          <nav><router-link :to="{ name: 'meals' }">Meals</router-link></nav>
-        </nav>
-      </li>
-      <li>
-        <nav>
-          <nav><router-link :to="{ name: 'settings' }">Settings</router-link></nav>
-        </nav>
-      </li>
-      <li>
-        <nav>
-          <nav><router-link :to="{ name: 'history' }">History</router-link></nav>
-        </nav>
-      </li>
-      <li>
-        <nav>
-          <nav><router-link :to="{ name: 'about' }">About</router-link></nav>
-        </nav>
-      </li>
+      <router-link
+        v-for="(routerLink, index) in routerLinks"
+        :key="index"
+        :to="{ name: routerLink.name }"
+        ><li>{{ routerLink.slot }}</li></router-link
+      >
     </ul>
   </div>
 </template>
+
+<script setup>
+const routerLinks = [
+  {
+    name: "home",
+    slot: "Home",
+  },
+  {
+    name: "meals",
+    slot: "Meals",
+  },
+  {
+    name: "settings",
+    slot: "Settings",
+  },
+  {
+    name: "history",
+    slot: "History",
+  },
+  {
+    name: "about",
+    slot: "About",
+  },
+];
+</script>
 
 <style scoped>
 .header {
@@ -39,8 +47,14 @@
     display: flex;
   }
 
-  &__nav > li {
+  &__nav > a {
     padding: 1rem;
+    color: white;
+  }
+
+  .router-link-active {
+    text-decoration: underline;
+    color: rgb(86, 254, 86);
   }
 }
 </style>
