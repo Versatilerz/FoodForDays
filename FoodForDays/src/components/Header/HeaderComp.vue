@@ -4,14 +4,14 @@
       <router-link
         v-for="(routerLink, index) in routerLinks"
         :key="index"
-        :to="{ name: routerLink.name }"
-        ><li>{{ routerLink.slot }}</li></router-link
-      >
+        :to="{ name: routerLink.name }">
+        <li>{{ routerLink.slot }}</li>
+      </router-link>
     </ul>
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const routerLinks = [
   {
     name: "home",
