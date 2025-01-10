@@ -56,6 +56,8 @@ const classes = computed(() => {
     "a b c"
     "d e f";
 
+  margin-bottom: 1rem;
+
   /* templates */
   &--home {
     grid-template-columns: repeat(3, 1fr);
