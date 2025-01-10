@@ -1,0 +1,51 @@
+:root {
+  --clr-white: #ffffff;
+  --clr-black: #000000;
+  --clr-transparent: #00000000;
+  --clr-white-grey: #f6f6f7;
+  --clr-light-grey: #e5e5e5;
+  --clr-dark-grey: #9d9d9d;
+  --clr-antraciet: #2a292e;
+
+  /* --border-primary: 1px solid var(--clr-light-grey);
+  --border-btn-disabled: var(--clr-dark-grey);
+  --border-btn-transparent: var(--clr-transparent);
+  --border-btn: 2px solid var(--clr-black);
+  --border-checkbox: 2px solid var(--clr-light-grey);
+
+  --radio-border: 2px solid var(--clr-light-grey);
+  --radio-clr-bg: var(--clr-white);
+  --radio-clr-border-hover: var(--clr-black);
+  --radio-clr-border-checked: 7px solid var(--clr-black);
+
+  --font-family-primary: 'Memphis', serif;
+  --font-family-secondary: 'Avenir', sans-serif;
+  --font-family-icon: 'icomoon';
+
+  --font-weight-light: 300;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  --font-size-xl: 3rem;
+  --font-size-lg: 2rem;
+  --font-size-md: 1.5rem;
+  --font-size-sm: 1.125rem;
+  --font-size-xs: 1rem;
+  --font-size-xxs: 0.875rem;
+
+  --icon-size-xl: 4.5rem;
+  --icon-size-lg: 2.25rem;
+  --icon-size-md: 1.5rem;
+  --icon-size-sm: 1rem;
+  --icon-size-xs: 0.75rem;
+  --icon-size-xxs: 0.5rem;
+
+  --box-shadow: 0px 2px 4px 0px #2a292e29, 0px 0px 16px 0px #2a293014;
+
+  --line-height-xl: 4rem;
+  --line-height-lg: 2rem;
+  --line-height-md: 1.75rem;
+  --line-height-sm: 1.375rem;
+  --line-height-s: 1.125rem;
+  --line-height-xs: 1rem; */
+}
