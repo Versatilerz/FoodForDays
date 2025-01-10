@@ -7,7 +7,9 @@
   --clr-dark-grey: #9d9d9d;
   --clr-antraciet: #2a292e;
 
-  /* --border-primary: 1px solid var(--clr-light-grey);
+  --border-primary: 1px solid var(--clr-light-grey);
+
+  /* 
   --border-btn-disabled: var(--clr-dark-grey);
   --border-btn-transparent: var(--clr-transparent);
   --border-btn: 2px solid var(--clr-black);

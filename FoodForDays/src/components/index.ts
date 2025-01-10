@@ -1,11 +1,13 @@
 import type { App } from "vue";
 
-import MealComp from "./Meal/MealComp.vue";
 import HeaderComp from "./Header/HeaderComp.vue";
+import Meal from "./Meal/Meal.vue";
+import Card from "./shared/Card.vue";
 
 export function SharedModule(app: App) {
+  app.component("Card", Card);
   app.component("HeaderComp", HeaderComp);
-  app.component("MealComp", MealComp);
+  app.component("Meal", Meal);
 }
 
-export { HeaderComp, MealComp };
+export { HeaderComp, Meal };
