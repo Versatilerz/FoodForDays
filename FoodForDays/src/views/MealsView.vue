@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import Meal from "@/components/Meal/Meal.vue";
-</script>
-
 <template>
   <Card class="grid-area-a">
     <Meal title="Test" />
