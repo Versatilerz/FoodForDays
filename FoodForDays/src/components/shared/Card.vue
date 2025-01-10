@@ -8,7 +8,8 @@
 .card {
   background-color: var(--clr-white);
   border: var(--border-primary);
-  border-radius: 10%;
+  box-shadow: var(--box-shadow);
+  border-radius: 12px;
   padding: 1rem;
   display: inline-block;
 }

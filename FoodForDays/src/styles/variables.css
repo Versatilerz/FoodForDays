@@ -8,6 +8,7 @@
   --clr-antraciet: #2a292e;
 
   --border-primary: 1px solid var(--clr-light-grey);
+  --box-shadow: 0px 2px 4px 0px #2a292e29, 0px 0px 16px 0px #2a293014;
 
   /* 
   --border-btn-disabled: var(--clr-dark-grey);

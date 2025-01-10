@@ -6,8 +6,9 @@ import Card from "./shared/Card.vue";
 
 export function SharedModule(app: App) {
   app.component("Card", Card);
+
   app.component("HeaderComp", HeaderComp);
   app.component("Meal", Meal);
 }
 
-export { HeaderComp, Meal };
+export { HeaderComp, Meal, Card };
