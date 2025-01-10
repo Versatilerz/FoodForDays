@@ -67,7 +67,6 @@ const classes = computed(() => {
   }
 
   &--meals {
-    align-items: start;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
       "a a b"
